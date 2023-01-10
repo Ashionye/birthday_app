@@ -80,9 +80,15 @@ $(document).ready(() => {
                         });
                 }
                 else {
+                    let day = "";
+                    if (difference == 1) {
+                        day = "DAY"
+                    } else {
+                        day = "DAYS"
+                    }
                     getB.innerHTML = `
                         <div class="b-count">
-                            <h1>${difference} DAYS LEFT<H1>
+                            <h1>${difference} ${day} LEFT<H1>
                             <h3>UNTIL YOUR BIRTHDAY!</h3>
                         </div>
                     `;
