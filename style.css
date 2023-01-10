@@ -1,0 +1,109 @@
+body {
+  background-color: #9A616D;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 15px;
+  text-align: center;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  box-shadow: 2px 5px 10px #000000;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+input {
+  outline-color: #9A616D;
+  height: 30px;
+  width: 400px;
+  font-size: 16px;
+}
+
+.agree {
+  font-size: 11px;
+  color: #777;
+  width: 316px;
+  margin: 11px 0 11px;
+}
+
+.join-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  color: #ffffff;
+  background-color: #9A616D;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 7px 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+button:hover {
+  color: #000000;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+a {
+  color: #8c3a4c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #565555;
+  transform: scale(1.1);
+}
+
+nav button {
+  float: right;
+  border-color: #ffffff;
+  border-radius: 15px;
+}
+
+.b-body {
+  width: 1000px;
+  height: 500px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 15px solid #000000;
+  background-color: #656565;
+  color: #ffffff;
+  display: grid;
+  text-align: center;
+}
+
+.b-count {
+  font-size: 40px;
+  align-self: center;
+}
+
+.b-number {
+  align-self: flex-start;
+  padding: 0px 70px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="layout">
+        <h1>Birthday App<br><small><em>Sign Up</em></small></h1>
+        <form action="">
+            <p>Create an account by filling the form</p>
+            <br>
+            <div class="form-group">
+                <label for="">First name: </label>
+                <input type="text" id="firstName" placeholder="John" required>
+            </div>
+            <div class="form-group">
+                <label for="">Last name: </label>
+                <input type="text" id="lastName" placeholder="Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="">Date of birth: </label>
+                <input type="date" id="DoB" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email: </label>
+                <input type="email" id="email" placeholder="email@address.com" required>
+            </div>
+            <div class="form-group">
+                <label for="">Password: </label>
+                <input type="password" id="pwd" placeholder="enter password" required>
+            </div>
+            <div class="join-layout">
+                <div class="agree">
+                    By clicking Sign up, you agree to our terms and conditions of use.
+                </div>
+                <div class="button">
+                    <button type="submit">Sign up</button>
+                </div>
+            </div>
+            <div>
+                <p><strong>
+                        Already have an account?
+                        <span><a href="index.html">Log In</a></span>
+                    </strong></p>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="sign-up.js"></script>
+
+</body>
+
+</html>
